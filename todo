@@ -1,0 +1,10 @@
+// NOTE: All relevant code can be found in the `Home` page within the `pages` folder, under the `components` folder.I create each component as a separate file, and then import them into the Home page.
+
+// TODO: Add a background image to the Hero section.
+// TODO: In the About Us section, add a left-side image at line 10.
+// TODO: In the Services section, add 4 icons for each image link and include a right-side image at the end of the Image Section.
+// TODO: In the Doctor Consultation section, add a left-side image.
+
+// NOTE: A slider has not been added to the Testimonials section yet.
+
+// TODO: At line 23 in nirvaPromo, add three SVG icons and include images for Google Play and a QR scanner.
