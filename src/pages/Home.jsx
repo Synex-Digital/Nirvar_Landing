@@ -10,7 +10,7 @@ import { NirvarPromo } from "../components/home/NirvarPromo";
 import { OurPartner } from "../components/home/OurPartner";
 import { Services } from "../components/home/Services";
 import { Testimonial } from "../components/home/Testimonial";
-import { Helmets } from "../components/layout/helmet";
+// import { Helmets } from "../components/layout/Helmet";
 
 const Home = () => {
   return (
