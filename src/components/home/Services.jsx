@@ -5,7 +5,7 @@ import { TitleBack } from "./tittle-back";
 
 export const Services = () => {
   return (
-    <section className="bg-white ">
+    <section className="bg-white " id="services-section">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
@@ -18,13 +18,13 @@ export const Services = () => {
         />
       </svg>
 
-      <div className="bg-[#c1f2f2] px-8 ">
+      <div className="bg-[#c1f2f2]">
         <div className=" container mx-auto ">
           <TitleBack back="Services" front="Services" />
 
           <div className="flex flex-col lg:flex-row lg:space-x-10 justify-between items-center pt-8 mt-8">
             {/* Content Section */}
-            <div className="lg:w-1/2 w-full">
+            <div className="lg:w-1/2 w-full px-4 lg:px-0">
               <div className="flex flex-col gap-y-16">
                 <div className="flex flex-col lg:flex-row space-y-16 lg:space-y-0 lg:space-x-6">
                   <MedicalHistoryTracking

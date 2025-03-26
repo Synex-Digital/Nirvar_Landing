@@ -2,7 +2,7 @@ import React from "react";
 
 export const TitleBack = ({ back, front }) => {
   return (
-    <div className="flex justify-start items-center">
+    <div className="flex justify-start items-center px-4 lg:px-0">
       <div className="relative flex flex-col items-center">
         <h2 className="text-[36px] sm:text-[48px] md:text-[60px] lg:text-[72px] text-[#ebf8f5] font-semibold">
           {back}

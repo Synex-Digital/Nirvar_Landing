@@ -14,9 +14,9 @@ const About_Us = () => {
       <Navbar />
       <HeroSection name={"About Us"} bgurl={images.ABOUT_US_PAGE_BG} />
       <AboutUs />
-      <Services />
+      <Services />  
       <NirvarPromo />
-      <OurPartner page="about-us" />
+      {/* <OurPartner page="about-us" /> */}
       <Footer page="about-us" />
     </>
   );

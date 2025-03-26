@@ -8,7 +8,7 @@ import SERVICES_ICON_03 from "./image/services_icon_03.png";
 import SERVICES_ICON_04 from "./image/services_icon_04.png";
 import SERVICES_RIGHT from "./image/services_right.png";
 import DOCTOR_LEFT from "./image/doctor_left.png";
-import SCAN_PIC_NIRVAR_PROMO from "./promo/scan_pic.png";
+import SCAN_PIC_NIRVAR_PROMO from "./promo/scan_pic.jpeg";
 import GOOLGLE_PLAY_ICON from "./promo/google_play_icon.png";
 
 import FOOTER_LOGO from "/nirvar_fotter_logo.png";

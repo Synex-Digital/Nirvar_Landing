@@ -6,25 +6,16 @@ export const FAQSection = () => {
   const faqItems = [
     {
       question: "What products does Nirvar have?",
-      answer: "Answer to question 1",
+      answer: "Nirvar is an mobile app which helps to segmentise health records and allows a customer to store and track vital health informations",
     },
     {
       question: "What do you mean by 'Zero Subscription Fee'?",
-      answer: "Answer to question 2",
+      answer: "To use Nirvar app, initially customer does not pay any subscription fee. For basic services , customers won't be charged any money.",
     },
-    {
-      question: "What products does Nirvar have?",
-      answer: "Answer to question 1",
-    },
-    {
-      question: "What do you mean by 'Zero Subscription Fee'?",
-      answer: "Answer to question 2",
-    },
-    // ... more FAQ items
   ];
 
   return (
-    <section className="bg-[#ffffff] pb-8">
+    <section className="bg-[#ffffff]" id="faq">
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="mb-[-1px]">
         <path
           fill="#ccddd8" // Updated fill color
@@ -36,7 +27,7 @@ export const FAQSection = () => {
         <div className="w-full flex justify-center items-center flex-col mb-12">
           <TitleBack back="FAQ" front="FAQ" />
         </div>
-        <div className="bg-gray-200 p-12  rounded-lg container mx-auto">
+        <div className="p-12  rounded-lg container mx-auto">
           {faqItems.map((item, index) => (
             <FAQItem
               key={index}

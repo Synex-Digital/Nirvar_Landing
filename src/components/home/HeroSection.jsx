@@ -5,7 +5,7 @@ export const HeroSection = () => {
   return (
     <>
       <section
-        className={`bg-cover bg-center bg-no-repeat relative h-screen`}
+        className={`bg-cover bg-center bg-no-repeat relative h-screen relative`}
         style={{ backgroundImage: `url(${images.HOME_BG_01})` }}
       >
         <div className="container mx-auto flex flex-col md:flex-row p-8 md:p-20 text-white">
@@ -27,7 +27,7 @@ export const HeroSection = () => {
           </div>
 
           {/* Right Section */}
-          <div className="mt-10 md:mt-0 md:pl-10 pt-64 md:w-1/2">
+          <div className="md:mt-0 md:pl-10  md:w-1/2 absolute left-[40%] md:bottom-[30%] bottom-16">
             <img
               className=""
               src={images.HOME_BG_02}

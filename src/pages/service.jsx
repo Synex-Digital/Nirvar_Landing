@@ -14,7 +14,7 @@ const service = () => {
       <HeroSection name={"Why Nirvar?"} bgurl={images.ABOUT_US_PAGE_BG} />
       <NirvarApp />
       <MedicalApp />
-      <OurPartner page="about-us" />
+      {/* <OurPartner page="about-us" /> */}
       <Footer page="about-us" />
     </>
   );
