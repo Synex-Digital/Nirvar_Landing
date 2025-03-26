@@ -3,14 +3,14 @@ import { images } from "../../assets/image_aseets";
 
 export const AboutUs = () => {
   return (
-    <div className="bg-white my-16">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-white my-16" id="about-us">
+      <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-[50%]">
             <img
               src={images.ABOUT_US_PAGE_LEFT}
               alt="Doctor and Patient"
-              className="w-[500px] h-[500px] object-cover rounded-lg"
+              className="md:w-[500px] md:h-[500px] object-cover rounded-lg w-full h-full"
               loading="lazy"
             />
           </div>

@@ -4,7 +4,7 @@ import { FaUserDoctor } from "react-icons/fa6";
 
 const MedicalApp = () => {
   return (
-    <div className="bg-white  container mx-auto px-4 py-16">
+    <div className="bg-white  container mx-auto px-4 py-16" id="medical-app">
       {/* Header Section */}
       <header className="bg-blue-500 text-white py-8 px-12">
         <h1 className="text-3xl font-bold">Think Healthy, Think Nirvar</h1>

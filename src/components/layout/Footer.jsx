@@ -82,6 +82,55 @@ export const Footer = ({ page }) => {
               </ul>
             </div>
           )}
+          {currentPage === "/about" && (
+            <div className="flex flex-col w-full sm:w-[45%] md:w-[30%] lg:w-[23%] mb-8 sm:mb-0">
+              <h3 className="font-bold text-lg mb-2">Quick Links</h3>
+              <ul className="space-y-2 text-sm sm:text-base">
+                <li>
+                  <Link to="/" className="hover:underline">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <a href="#about-us" className="hover:underline">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#services-section" className="hover:underline">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#nirvar-promo" className="hover:underline">
+                    Why Nirvar?
+                  </a>
+                </li>
+              </ul>
+            </div>
+          )}
+          {currentPage === "/service" && (
+            <div className="flex flex-col w-full sm:w-[45%] md:w-[30%] lg:w-[23%] mb-8 sm:mb-0">
+              <h3 className="font-bold text-lg mb-2">Quick Links</h3>
+              <ul className="space-y-2 text-sm sm:text-base">
+                <li>
+                  <Link to="/" className="hover:underline">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <a href="#nirvar-app" className="hover:underline">
+                    Nirvar App
+                  </a>
+                </li>
+                <li>
+                  <a href="#medical-app" className="hover:underline">
+                    Medical App
+                  </a>
+                </li>
+              </ul>
+            </div>
+          )}
           {currentPage === "/privacy-policy" && (
             <div className="flex flex-col w-full sm:w-[45%] md:w-[30%] lg:w-[23%] mb-8 sm:mb-0">
               <h3 className="font-bold text-lg mb-2">Quick Links</h3>
