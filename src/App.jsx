@@ -4,7 +4,7 @@ import { PageSkeleton } from "./components/layout/Loaders";
 
 const Home = lazy(() => import("./pages/Home"));
 const About_Us = lazy(() => import("./pages/About-Us"));
-const Service = lazy(() => import("./pages/Service"));
+const Service = lazy(() => import("./pages/service"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const CommingSoon = lazy(() => import("./pages/comming-soon"));
 
