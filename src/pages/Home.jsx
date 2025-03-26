@@ -10,7 +10,6 @@ import { NirvarPromo } from "../components/home/NirvarPromo";
 import { OurPartner } from "../components/home/OurPartner";
 import { Services } from "../components/home/Services";
 import { Testimonial } from "../components/home/Testimonial";
-import { Helmets } from "../components/layout/helmet";
 
 const Home = () => {
   return (
@@ -21,13 +20,12 @@ const Home = () => {
       <AboutUs />
       <Services />
       <DoctorConsultationAd />
-      <Testimonial />
-      <NirvarPromo />
+      {/* <Testimonial /> */}
       <FAQSection />
-      <OurPartner />
+      <NirvarPromo />
+      {/* <OurPartner /> */}
       <Footer />
     </>
   );
 };
-
 export default Home;

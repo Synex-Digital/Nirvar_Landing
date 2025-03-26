@@ -7,8 +7,8 @@ import { images } from "../../assets/image_aseets";
 
 export const NirvarPromo = () => {
   return (
-    <section className="bg-white pt-8">
-      <div className="container mx-auto px-8">
+    <section className="bg-white pt-8" id="nirvar-promo">
+      <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start">
           {/* Left Side Image */}
           <div className="flex-1 w-full md:w-1/2 mb-8 md:mb-0">
@@ -23,7 +23,7 @@ export const NirvarPromo = () => {
           </div>
 
           {/* Right Side Text Content */}
-          <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8">
+          <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8 px-4 lg:px-0">
             <TitleBack back={"Why nirvar"} front={"Why nirvar"} />
             <ul className="pt-16 space-y-4">
               <li className="flex items-start">
@@ -53,14 +53,14 @@ export const NirvarPromo = () => {
 
             {/* Learn More Button */}
             <button className="mt-8 bg-teal-500 text-white py-3 px-10 rounded-full shadow-lg hover:bg-teal-600 transition duration-300">
-              Learn More
+              <Link to={"/about"}>Learn More</Link>
             </button>
 
             {/* Download Section */}
             <div className="mt-6">
               <p className="text-gray-600">Download The App Now:</p>
               <div className="flex items-center mt-3 flex-wrap">
-                <Link to="#">
+                <Link to="https://play.google.com/store/apps/details?id=com.nirvar.medic.patient&pcampaignid=web_share&pli=1">
                   <img
                     src={images.GOOLGLE_PLAY_ICON}
                     alt="Google Play"

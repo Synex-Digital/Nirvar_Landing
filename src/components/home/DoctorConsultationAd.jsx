@@ -2,17 +2,15 @@ import React from "react";
 import { images } from "../../assets/image_aseets";
 import { TitleBack } from "./tittle-back";
 
-
 export const DoctorConsultationAd = () => {
   return (
-    <section className="bg-white">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-8 my-8">
+    <section className="bg-white" id="doctor-consultation">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between my-8">
         <div className="w-full md:w-[45%] flex justify-center md:justify-start">
           <img
             src={images.DOCTOR_LEFT}
             alt="Doctor and Patient"
-            className="w-[600px] h-[600px] object-cover rounded-lg"
-            loading="lazy"
+            className="w-[600px] h-[600px] object-fill rounded-lg"
           />
         </div>
         <div className="w-full md:w-[45%] mt-8 md:mt-0 md:ml-8 text-center md:text-left">

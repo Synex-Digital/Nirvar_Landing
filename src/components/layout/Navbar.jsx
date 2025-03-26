@@ -45,7 +45,8 @@ export const Navbar = React.memo(() => {
           >
             Privacy Policy
           </Link>
-          <button
+          <Link
+            to={"/admin.nirvartech.com"}
             className="flex items-center bg-white text-teal-500 px-4 py-2 rounded-lg hover:bg-gray-200"
             title="Login to your account"
           >
@@ -62,7 +63,7 @@ export const Navbar = React.memo(() => {
               />
             </svg>
             <span className="ml-2">LOGIN</span>
-          </button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -112,22 +113,20 @@ export const Navbar = React.memo(() => {
             Service
           </Link>
           <Link
-            to="/testimonials"
+            to="/privacy-policy"
             className="hover:text-gray-300"
-            onClick={toggleMenu}
+            title="Privacy Policy"
           >
-            Testimonials
+            Privacy Policy
           </Link>
-          <Link to="/faq" className="hover:text-gray-300" onClick={toggleMenu}>
-            FAQ
-          </Link>
-          <Link
-            to="/contact"
-            className="hover:text-gray-300"
-            onClick={toggleMenu}
+          <a
+            href="mailto:team.nirvartech@gmail.com"
+            target="_blank"
+            onclick="window.open('your WS URL');"
           >
             Contact Us
-          </Link>
+          </a>
+          <Link to={"https://admin.nirvartech.com/login"}>Login</Link>
         </div>
       </nav>
     </section>
